@@ -41,7 +41,7 @@ There is also another webdav interface. The storage system behind ownCloud is dC
 
 You may see the error "Connection not secure" when accessing the dCache webdav door. 
 
-![cdi_portal](images/connection-not-secure.png)
+![cdi_portal](images/connection-not-secure.png){:width="400px"}
 
 That is because a root CA certificate needs to be installed. You can find this certificate at https://www.terena.org/activities/tcs/repository-g3/. Save the "TCS eScience SSL CA 3" PEM certificate, as illustrated below:
 
