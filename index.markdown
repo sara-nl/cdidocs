@@ -11,7 +11,7 @@ We're working on a description.
 
 # Getting access to the CDI
 
-To get access to the CDI for testing, contact our advisors at helpdesk@surfsara.nl?subject=Requesting%20access%20to%20CDI. If granted, you will get a username and password.
+To get access to the CDI for testing, contact our advisors at <a href="mailto:helpdesk@surfsara.nl?subject=Requesting%20access%20to%20CDI">helpdesk@surfsara.nl</a>. If granted, you will get a username and password.
 
 # Logging in to the portal
 
@@ -41,7 +41,7 @@ There is also another webdav interface. The storage system behind ownCloud is dC
 
 You may see the error "Connection not secure" when accessing the dCache webdav door. 
 
-![cdi_portal](images/connection-not-secure.png)
+![cdi_portal](images/connection-not-secure.png =400x)
 
 That is because a root CA certificate needs to be installed. You can find this certificate at https://www.terena.org/activities/tcs/repository-g3/. Save the "TCS eScience SSL CA 3" PEM certificate, as illustrated below:
 
