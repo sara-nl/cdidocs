@@ -26,3 +26,5 @@ code {
 .searchbox {
   display: none;
 }
+
+img[alt=connection_not_secure] { width: 400px; }
