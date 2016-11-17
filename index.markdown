@@ -61,6 +61,10 @@ Click Import and select the certificate you have just downloaded. You will see t
 
 Select all checkboxes and click OK. Then go back to the webdav interface and refresh the page.
 
+### Automating webdav access
+
+Apart from using your browser, you can use also `curl`. For examples, please have a look at our [griddocs-webdav](http://doc.grid.surfsara.nl/en/latest/Pages/Advanced/storage_clients/webdav.html#webdav "Grid documentation about curl & webdav"). Don't forget to use the correct webdav URL.
+
 # Other access protocols
 
 dCache is also accessible via other file transfer protocols. GridFTP is one of them, that may be interesting in cases where the geographical distance is large, or where large amounts of data need to be transferred. GridFTP is designed to offer the best performance in such cases. Contact us if you want to experiment with that.
