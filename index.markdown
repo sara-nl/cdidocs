@@ -23,7 +23,7 @@ To access the ownCloud portal, go to https://portal.cdi.surfsara.nl. You will se
 
 Log in with your username and password. You will then see the ownCloud portal interface:
 
-![cdi_portal](images/cdi-portal.png)
+<a href="images/cdi-portal.png"><img src="images/cdi-portal.png" alt="CDI portal" width="75%" height="75%" /></a>
 
 Here you can upload, download, move, remove and share files.
 
