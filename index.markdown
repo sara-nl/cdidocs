@@ -11,7 +11,7 @@ We're working on a description.
 
 # Getting access to the CDI
 
-To get access to the CDI for testing, contact our advisors at <a href="mailto:helpdesk@surfsara.nl?subject=Requesting%20access%20to%20CDI">helpdesk@surfsara.nl</a>. If granted, you will get a username and password.
+To get access to the CDI for testing, contact our advisors at <a href="mailto:helpdesk@surfsara.nl?subject=Requesting%20access%20to%20CDI">helpdesk@surfsara.nl</a>. If granted, you will get a username and password. If you already have a SURFsara CUA account, please tell us so that we can authorize your existing account for the CDI.
 
 # Logging in to the portal
 
