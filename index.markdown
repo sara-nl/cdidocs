@@ -13,13 +13,13 @@ We're working on a description.
 
 # Getting access to the CDI
 
-To get access to the CDI for testing, contact our advisors at <a href="mailto:helpdesk@surfsara.nl?subject=Requesting%20access%20to%20CDI">helpdesk@surfsara.nl</a>. If granted, you will get a username and password. If you already have a SURFsara CUA account, please tell us so that we can authorize your existing account for the CDI.
+To request access to the CDI for testing, contact our advisors at <a href="mailto:helpdesk@surfsara.nl?subject=Requesting%20access%20to%20CDI">helpdesk@surfsara.nl</a>. If granted, we'll give you a username and password. If you already have a SURFsara CUA account, please tell us, so that we can authorize your existing account for the CDI.
 
 # Logging in to the portal
 
 To access the ownCloud portal, go to https://portal.cdi.surfsara.nl. You will see a login screen: 
 
-![cdi_portal_login](images/cdi-portal-login.png)
+<a href="images/cdi-portal-login.png"><img src="images/cdi-portal-login.png" alt="CDI portal login" width="50%" height="50%" /></a>
 
 Log in with your username and password. You will then see the ownCloud portal interface:
 
