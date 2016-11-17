@@ -37,7 +37,7 @@ OwnCloud has a webdav interface that enables mounting and automated access. You 
 
 ## dCache webdav
 
-There is also another webdav interface. The storage system behind ownCloud is dCache. dCache has a native webdav door, accessible at https://pn1.cdi.surfsara.nl:8443/cdi/users/username/files/, where username is your own username. You will be asked for your username and password.
+There is also another webdav interface. The storage system behind ownCloud is dCache. dCache has a native webdav door, accessible at [https://pn1.cdi.surfsara.nl:8443/cdi/users/username/files/](https://pn1.cdi.surfsara.nl:8443/cdi/users/username/files/), where username is your own username. You will be asked for your username and password.
 
 The dCache webdav interface offers a better performance than the ownCloud webdav. You may want to use it if you want to upload or download large amounts of data.
 
@@ -47,7 +47,7 @@ You may see the error "Connection not secure" when accessing the dCache webdav d
 
 <a href="images/connection-not-secure.png"><img src="images/connection-not-secure.png" alt="Connection not secure" width="50%" height="50%" /></a>
 
-That is because a root CA certificate needs to be installed. You can find this certificate at https://www.terena.org/activities/tcs/repository-g3/. Save the "TCS eScience SSL CA 3" PEM certificate, as illustrated below:
+That is because a root CA certificate needs to be installed. You can find this certificate at [https://www.terena.org/activities/tcs/repository-g3/](https://www.terena.org/activities/tcs/repository-g3/). Save the "TCS eScience SSL CA 3" PEM certificate, as illustrated below:
 
 ![cdi_portal](images/download-ca-cert.png)
 
