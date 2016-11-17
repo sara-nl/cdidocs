@@ -39,7 +39,9 @@ OwnCloud has a webdav interface that enables mounting and automated access. You 
 
 There is also another webdav interface. The storage system behind ownCloud is dCache. dCache has a native webdav door, accessible at [https://pn1.cdi.surfsara.nl:8443/cdi/users/username/files/](https://pn1.cdi.surfsara.nl:8443/cdi/users/username/files/), where username is your own username. You will be asked for your username and password.
 
-The dCache webdav interface offers a better performance than the ownCloud webdav. You may want to use it if you want to upload or download large amounts of data.
+The dCache webdav interface offers a better performance than the ownCloud webdav. You may want to use it if you want to upload or download large amounts of data. The downside is that files that were shared through ownCloud are not visible through the dCache webdav interface.
+
+<a href="images/dcache-webdav-interface.png"><img src="images/dcache-webdav-interface.png" alt="dCache webdav interface" width="75%" height="75%" /></a>
 
 ### Connection not secure
 
@@ -67,4 +69,17 @@ With `curl`, you can access the CDI storage from scripts that run non-interactiv
 
 # Other access protocols
 
-dCache is also accessible via other file transfer protocols. GridFTP is one of them, that may be interesting in cases where the geographical distance is large, or where large amounts of data need to be transferred. GridFTP is designed to offer the best performance in such cases. Contact us if you want to experiment with that.
+dCache offers these other file transfer protocols to access your data. Please note that shared files are not visible this way.
+
+* GridFTP may be interesting in cases where the geographical distance is large, or where large amounts of data need to be transferred. GridFTP is designed to offer good performance in such cases. You need a user certificate to work with GridFTP.
+* NFS - only from trusted (SURFsara) hosts
+* dCap
+* GSIdCap
+* Xrootd
+* SCP - through an NFS mount
+* SFTP - through an NFS mount
+* Globus-url-copy - through an NFS mount
+
+If you need SCP, SFTP or other protocols we can set up such a service on top of an NFS mount.
+
+Contact us if you want to experiment with any of these protocols.
