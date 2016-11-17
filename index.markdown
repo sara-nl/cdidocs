@@ -39,6 +39,8 @@ OwnCloud has a webdav interface that enables mounting and automated access. You 
 
 There is also another webdav interface. The storage system behind ownCloud is dCache. dCache has a native webdav door, accessible at https://pn1.cdi.surfsara.nl:8443/cdi/users/username/files/, where username is your own username. You will be asked for your username and password.
 
+The dCache webdav interface offers a better performance than the ownCloud webdav. You may want to use it if you want to upload or download large amounts of data.
+
 ### Connection not secure
 
 You may see the error "Connection not secure" when accessing the dCache webdav door. 
