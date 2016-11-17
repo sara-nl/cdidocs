@@ -63,7 +63,7 @@ Select all checkboxes and click OK. Then go back to the webdav interface and ref
 
 ### Automating webdav access
 
-With `curl`, you can access the CDI storage from scripts that run non-interactively. For examples, please have a look at our [griddocs-webdav](http://doc.grid.surfsara.nl/en/latest/Pages/Advanced/storage_clients/webdav.html#webdav "Grid documentation about curl & webdav"). Don't forget to use the correct webdav URL. Put your password in a file with `curl --netrc-file filename`; it's not safe to specify passwords on a command line on a shared system.
+With `curl`, you can access the CDI storage from scripts that run non-interactively. For examples, please have a look at our [Grid documentation about curl and webdav](http://doc.grid.surfsara.nl/en/latest/Pages/Advanced/storage_clients/webdav.html#webdav "Grid documentation about curl & webdav"). Don't forget to use the correct webdav URL. Put your password in a file with `curl --netrc-file filename`; it's not safe to specify passwords on a command line on a shared system.
 
 # Other access protocols
 
