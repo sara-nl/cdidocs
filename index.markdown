@@ -45,7 +45,7 @@ The dCache webdav interface offers a better performance than the ownCloud webdav
 
 You may see the error "Connection not secure" when accessing the dCache webdav door. 
 
-![cdi_portal](images/connection-not-secure.png)
+<a href="images/connection-not-secure.png"><img src="images/connection-not-secure.png" alt="Connection not secure" width="75%" height="75%" /></a>
 
 That is because a root CA certificate needs to be installed. You can find this certificate at https://www.terena.org/activities/tcs/repository-g3/. Save the "TCS eScience SSL CA 3" PEM certificate, as illustrated below:
 
