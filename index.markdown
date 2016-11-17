@@ -5,6 +5,8 @@ layout: default
 
 We're working on documentation for the SURFsara Central Data Infrastructure (CDI). Stay tuned.
 
+*Note: The CDI is under heavy development. Don't store valuable data on the CDI; use test data only.*
+
 # What is the Central Data Infrastructure?
 
 We're working on a description.
